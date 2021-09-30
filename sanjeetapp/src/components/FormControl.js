@@ -238,7 +238,7 @@ console.log(data)
           value={enteredName}
         />
         {nameInputIsInvalid && (
-          <p className='error-text'>Title must not be empty.</p>
+          <p className='error-text'>Please select a title</p>
         )}
       </div>
 
@@ -252,7 +252,7 @@ console.log(data)
           value={enteredBody}
         />
         {BodyInputIsInvalid && (
-          <p className='error-text'>Body must not be empty.</p>
+          <p className='error-text'>Please select a body</p>
         )}
       </div>
 
